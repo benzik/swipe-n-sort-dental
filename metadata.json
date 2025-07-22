@@ -1,0 +1,6 @@
+{
+  "name": "Swipe-n-Sort Dental Services",
+  "description": "An interactive web application to sort a list of dental services by swiping cards left or right. Users can generate a PDF of their selected services.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

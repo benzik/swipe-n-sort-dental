@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dental-services
+    ports:
+      - "9753:80"  # Используем нестандартный порт 9753
+    restart: unless-stopped
